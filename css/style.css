@@ -1,0 +1,1146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 72.67%), url(../img/Rectangle\ 2.1\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+
+.mainheaderbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.langbox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+}
+
+.langbox p {
+    padding: 0 10px;
+}
+
+.engtext {
+    color: gray;
+}
+
+.rustext {
+    color: white;
+}
+
+.langbox a {
+    text-decoration: none;
+}
+
+.secondheaderbox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    color: white;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.navlist li:hover {
+    color: #FFB800;
+}
+
+.navlist a {
+    text-decoration: none;
+}
+
+.helpbutton {
+    height: 50px;
+    margin-left: 20px;
+    width: 120px;
+    border: 1px solid #FFB800;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+
+.helpbutton:hover {
+    background: #FFB800;
+    color: black;
+}
+
+.secondmainheaderbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerinfotext {
+    color: white;
+    font-size: 48px;
+    width: 60%;
+}
+
+.headerunderinfotext {
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    width: 62%;
+}
+
+.quicksearch {
+    backdrop-filter: blur(24px);
+    height: 360px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quicksearchtextbox {
+    width: 80%;
+    align-items: flex-start;
+}
+
+.searchtext {
+    padding: 40px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.where {
+    height: 36px;
+    width: 80%;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+}
+
+.where::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.inputbox {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.when {
+    padding-left: 10px;
+    height: 36px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 45%;
+}
+
+.when::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.lenght {
+    padding-left: 10px;
+    height: 36px;
+    width: 45%;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.lenght::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.type {
+    padding-left: 7px;
+    margin-bottom: 20px;
+    height: 36px;
+    width: 80%;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+}
+
+.findbutton {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 36px;
+    background: none;
+    border: 1px solid #FFB800;
+    border-radius: 5px;
+    color: white;
+}
+
+.findbutton:hover {
+    background: #FFB800;
+    color: black;
+}
+
+.whyusbox {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.whyustext {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.headerwhyusbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerwhyusbox div {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.headerwhyusbox p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+main {
+    width: 100%;
+    background-color: #1B1E22;
+}
+
+.actualtext {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+
+.firsttourlistbox {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.firsttourlistbox a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.firsttourlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firsttourlist li {
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.firsttourbox {
+    color: black;
+    margin: 50px auto;
+    width: 360px;
+    background: url(../img/background1.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.tourinfobox {
+    display: flex;
+    justify-content: left;
+    padding-top: 160px;
+}
+
+.pricebox {
+    display: inline-block;
+    width: 78px;
+    height: 32px;
+    background: yellow;
+}
+
+.pricetext {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pricetextspan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.datebox {
+    display: inline-block;
+    width: 170px;
+    height: 32px;
+    background: rgba(27, 30, 34, 0.4);
+    border-radius: 0 5px 5px 0;
+}
+
+.datetext {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.headingtext {
+    color: black;
+    text-align: left;
+    width: 80%;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.firstcontenttext {
+    color: black;
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+
+.secondtourbox {
+    color: black;
+    margin: 50px auto;
+    width: 360px;
+    background: url(../img/background2.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.tourinfobox {
+    display: flex;
+    justify-content: left;
+    padding-top: 160px;
+}
+
+.pricebox {
+    display: inline-block;
+    width: 78px;
+    height: 32px;
+    background: yellow;
+}
+
+.pricetext {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pricetextspan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.datebox {
+    display: inline-block;
+    width: 170px;
+    height: 32px;
+    background: rgba(27, 30, 34, 0.4);
+    border-radius: 0 5px 5px 0;
+}
+
+.datetext {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.headingtext {
+    color: black;
+    text-align: left;
+    width: 80%;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.contenttext {
+    color: black;
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.moreinfolink {
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 0 30px 20px;
+}
+
+.thirdtourbox {
+    color: black;
+    margin: 50px auto;
+    width: 360px;
+    background: url(../img/background3.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.tourinfobox {
+    display: flex;
+    justify-content: left;
+    padding-top: 160px;
+}
+
+.pricebox {
+    display: inline-block;
+    width: 78px;
+    height: 32px;
+    background: yellow;
+}
+
+.pricetext {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pricetextspan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.datebox {
+    display: inline-block;
+    width: 170px;
+    height: 32px;
+    background: rgba(27, 30, 34, 0.4);
+    border-radius: 0 5px 5px 0;
+}
+
+.datetext {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.headingtext {
+    color: black;
+    text-align: left;
+    width: 80%;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.thirdcontenttext {
+    color: black;
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.secondtourlistbox {
+    display: flex;
+    justify-content: center;
+}
+
+.secondtourlistbox a {
+    text-decoration: none;
+}
+
+.secondtourlist {
+    list-style: none;
+}
+
+.secondtourlist li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.fourthtourbox {
+    color: black;
+    margin: 50px auto;
+    width: 360px;
+    background: url(../img/background4.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.tourinfobox {
+    display: flex;
+    justify-content: left;
+    padding-top: 160px;
+}
+
+.pricebox {
+    display: inline-block;
+    width: 78px;
+    height: 32px;
+    background: yellow;
+}
+
+.pricetext {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pricetextspan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.datebox {
+    display: inline-block;
+    width: 170px;
+    height: 32px;
+    background: rgba(27, 30, 34, 0.4);
+    border-radius: 0 5px 5px 0;
+}
+
+.datetext {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.headingtext {
+    color: black;
+    text-align: left;
+    width: 80%;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.fourthcontenttext {
+    color: black;
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+
+.fifthtourbox {
+    color: black;
+    margin: 50px auto;
+    width: 360px;
+    background: url(../img/background5.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.tourinfobox {
+    display: flex;
+    justify-content: left;
+    padding-top: 160px;
+}
+
+.pricebox {
+    display: inline-block;
+    width: 78px;
+    height: 32px;
+    background: yellow;
+}
+
+.pricetext {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pricetextspan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.datebox {
+    display: inline-block;
+    width: 170px;
+    height: 32px;
+    background: rgba(27, 30, 34, 0.4);
+    border-radius: 0 5px 5px 0;
+}
+
+.datetext {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.headingtext {
+    color: black;
+    text-align: left;
+    width: 80%;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.fifthcontenttext {
+    color: black;
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+
+.sixthtourbox {
+    color: black;
+    margin: 50px auto;
+    width: 360px;
+    background: url(../img/background6.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.tourinfobox {
+    display: flex;
+    justify-content: left;
+    padding-top: 160px;
+}
+
+.pricebox {
+    display: inline-block;
+    width: 78px;
+    height: 32px;
+    background: yellow;
+}
+
+.pricetext {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pricetextspan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.datebox {
+    display: inline-block;
+    width: 170px;
+    height: 32px;
+    background: rgba(27, 30, 34, 0.4);
+    border-radius: 0 5px 5px 0;
+}
+
+.datetext {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.headingtext {
+    color: black;
+    text-align: left;
+    width: 80%;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sixthcontenttext {
+    color: black;
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.mainbuttonbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.seeallbutton {
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background: none;
+    border: 1px solid #FFB800;
+    border-radius: 5px;
+}
+
+.seeallbutton:hover {
+    background: #FFB800;
+    color: black;
+}
+
+.companyinfobox {
+    width: 100%;
+    flex-wrap: wrap;
+    background: url(../img/Rectangle\ \(2\).png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.companyinfobox div {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.companyinfobox .companynumbertext {
+    color: #FFB800;
+    font-size: 70px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.companyinfobox .companytext {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.ourblogbox {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ourblogbox a {
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.ourblogtext {
+    color: white;
+    font-size: 34px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.tenplacesbox {
+    width: 552px;
+    height: 480px;
+    background: url(../img/background1000.png);
+    border-radius: 5px;
+}
+
+.tenplacestext {
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 34px;
+    padding: 50px 0 20px 0;
+}
+
+.tenplacesdatetext {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.howtobox {
+    width: 264px;
+    height: 480px;
+    background: url(../img/background1500.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.howtotext {
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    padding-top: 250px;
+    padding-left: 20px;
+}
+
+.howtotextinfo {
+    color: white;
+    font-size: 14px;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.commentlist {
+    list-style: none;
+    padding: 30px 5px 0 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.commentlist p {
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+}
+
+.commentlist .yellowliketext {
+    color: white;
+}
+
+.lifehackbox {
+    width: 264px;
+    height: 480px;
+    background: url(../img/background2000.png), #23282F;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.lifehacktext {
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    padding-top: 250px;
+    padding-left: 20px;
+}
+
+.lifehacktextinfo {
+    color: white;
+    font-size: 14px;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.secondcommentlist {
+    list-style: none;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 5px 0 5px;
+}
+
+.secondcommentlist p {
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+}
+
+.secondseeallbutton {
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background: none;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.secondmainbuttonbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.secondseeallbutton:hover {
+    background: orange;
+    color: black;
+}
+
+.reviewbox {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    background: none;
+}
+
+.clientsreview {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.clientimgbox {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 30px 0;
+}
+
+.clientimg {
+    padding-left: 10px;
+}
+
+.reviewtext {
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.clientnametext {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFB800;
+    text-align: center;
+}
+
+.clientnamelink {
+    text-decoration: none;
+}
+
+.circlebox {
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.positionbox {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+}
+
+.positionlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.positionlist img {
+    opacity: 0.4;
+}
+
+footer {
+    width: 100%;
+    background: #1B1E22;
+    padding: 50px 0;
+}
+
+.footerlist {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.footerlist a {
+    text-decoration: none;
+}
+
+.footerlist p {
+    color: white;
+    font-size: 13px;
+}
+
+.footerlist span {
+    margin-right: 20px;
+    color: orange;
+}
+
+.firstli p {
+    text-align: left;
+}
+
+.secondli p {
+    text-align: right;
+}
+
+.messengerlist {
+    padding-top: 10px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width:1000px) {
+    .navlist {
+        display: none;
+    }
+    .secondmainheaderbox {
+        flex-direction: column;
+    }
+    .banner {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .banner p {
+        text-align: center;
+    }
+    .headerinfotext {
+        width: 100%;
+    }
+    .headerunderinfotext {
+        width: 100%;
+    }
+    .quicksearch {
+        width: 100%;
+    }
+    .headerwhyusbox {
+        flex-wrap: wrap;
+    }
+    .headerwhyusbox img {
+        height: 50px;
+        width: 50px;
+    }
+    .headerwhyusbox p {
+        font-size: 13px;
+    }
+    .searchtext {
+        font-size: 15px;
+    }
+    .actualtext {
+        font-size: 25px;
+    }
+    .companynumbertext {
+        font-size: 50px;
+    }
+    .firstli {
+        padding: 10px 0;
+    }
+    .secondli {
+        padding: 10px 0;
+    }
+    .thirdli {
+        padding: 10px 0;
+    }
+}
+
+@media(max-width:650px) {
+    .headerbox {
+        flex-direction: column;
+    }
+    .secondheaderbox {
+        display: none;
+    }
+    .tenplacesbox {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tenplacestext {
+        font-size: 25px;
+    }
+    .howtobox {
+        width: 90%;
+        height: 250px;
+        margin: 0 auto;
+        background: #23282F;
+    }
+    .lifehackbox {
+        width: 90%;
+        height: 250px;
+        margin: 0 auto;
+        background: #23282F;
+    }
+    .howtotext {
+        padding-top: 40px;
+    }
+    .lifehacktext {
+        padding-top: 40px;
+    }
+    .footerlist li {
+        padding: 10px;
+    }
+}
+
+@media(max-width:400px) {
+    .firsttourbox {
+        width: 90%;
+    }
+    .secondtourbox {
+        width: 90%;
+    }
+    .thirdtourbox {
+        width: 90%;
+    }
+    .fourthtourbox {
+        width: 90%;
+    }
+    .fifthtourbox {
+        width: 90%;
+    }
+    .sixthtourbox {
+        width: 90%;
+    }
+    .where::placeholder {
+        font-size: 10px;
+    }
+    .lenght::placeholder {
+        font-size: 10px;
+    }
+    .when::placeholder {
+        font-size: 10px;
+    }
+    .type {
+        font-size: 10px;
+    }
+}
